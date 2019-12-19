@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+    <option name="showStatusBarWidget" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9637e26c-de01-4202-b735-b4384b40e4ad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.2/libexec" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings_sigma.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1UvjhdxQGhiFcI7Ga3npSgGJK6a" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="components" />
+      <recent name="app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HttpsClientAutheticationTest.testSameCert">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.App" />
+      <module name="ForTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CertAuthServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="app.CertAuthServer" />
+      <module name="ForTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpsClientAutheticationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ForTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HttpsClientAutheticationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpsClientAutheticationTest.testSameCert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ForTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HttpsClientAutheticationTest" />
+      <option name="METHOD_NAME" value="testSameCert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ForTests" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.CertAuthServer" />
+      <item itemvalue="JUnit.HttpsClientAutheticationTest" />
+      <item itemvalue="JUnit.HttpsClientAutheticationTest.testSameCert" />
+      <item itemvalue="Spring Boot.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HttpsClientAutheticationTest.testSameCert" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.HttpsClientAutheticationTest" />
+        <item itemvalue="Application.CertAuthServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9637e26c-de01-4202-b735-b4384b40e4ad" name="Default Changelist" comment="" />
+      <created>1576244083813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576244083813</updated>
+      <workItem from="1576492771176" duration="7707000" />
+      <workItem from="1576678426917" duration="10659000" />
+      <workItem from="1576691922505" duration="136000" />
+      <workItem from="1576692133623" duration="10137000" />
+      <workItem from="1576748876780" duration="20316000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1576363666010">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1576363666010" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576477232022">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576477232022" />
+    <state x="439" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576484912036">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="439" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1576484912036" />
+    <state x="533" y="173" width="689" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1576767152993">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1576685754583" />
+    <state x="533" y="173" width="689" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.813@0.23.1440.813" timestamp="1576767152993" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.23.1440.815@0.23.1440.815" timestamp="1576700822381" />
+    <state x="408" y="173" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576691090759">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="408" y="173" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.815@0.23.1440.815" timestamp="1576691090759" />
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1576771697274">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="397" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576688839108" />
+    <state width="1398" height="351" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1576748245408" />
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1576771697274" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1576702583610" />
+    <state width="1398" height="157" key="GridCell.Tab.0.bottom/0.23.1440.817@0.23.1440.817" timestamp="1576691826407" />
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1576366950073" />
+    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1576771697272">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="397" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576688839106" />
+    <state width="1398" height="351" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1576748245407" />
+    <state width="1398" height="279" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1576771697272" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1576702583609" />
+    <state width="1398" height="157" key="GridCell.Tab.0.center/0.23.1440.817@0.23.1440.817" timestamp="1576691826406" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1576366950072" />
+    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1576771697271">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="397" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576688839106" />
+    <state width="1398" height="351" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1576748245406" />
+    <state width="1398" height="279" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1576771697271" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1576702583608" />
+    <state width="1398" height="157" key="GridCell.Tab.0.left/0.23.1440.817@0.23.1440.817" timestamp="1576691826406" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1576366950072" />
+    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1576771697273">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="397" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576688839107" />
+    <state width="1398" height="351" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1576748245407" />
+    <state width="1398" height="279" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1576771697273" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1576702583609" />
+    <state width="1398" height="157" key="GridCell.Tab.0.right/0.23.1440.817@0.23.1440.817" timestamp="1576691826407" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1576366950073" />
+    <state width="1398" height="282" key="GridCell.Tab.1.bottom" timestamp="1576771043589">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="307" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576688380647" />
+    <state width="1398" height="351" key="GridCell.Tab.1.bottom/0.23.1440.805@0.23.1440.805" timestamp="1576748245409" />
+    <state width="1398" height="282" key="GridCell.Tab.1.bottom/0.23.1440.813@0.23.1440.813" timestamp="1576771043589" />
+    <state width="1398" height="351" key="GridCell.Tab.1.bottom/0.23.1440.815@0.23.1440.815" timestamp="1576699375605" />
+    <state width="1398" height="282" key="GridCell.Tab.1.center" timestamp="1576771043588">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="307" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576688380645" />
+    <state width="1398" height="351" key="GridCell.Tab.1.center/0.23.1440.805@0.23.1440.805" timestamp="1576748245408" />
+    <state width="1398" height="282" key="GridCell.Tab.1.center/0.23.1440.813@0.23.1440.813" timestamp="1576771043588" />
+    <state width="1398" height="351" key="GridCell.Tab.1.center/0.23.1440.815@0.23.1440.815" timestamp="1576699375605" />
+    <state width="1398" height="282" key="GridCell.Tab.1.left" timestamp="1576771043588">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="307" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576688380643" />
+    <state width="1398" height="351" key="GridCell.Tab.1.left/0.23.1440.805@0.23.1440.805" timestamp="1576748245408" />
+    <state width="1398" height="282" key="GridCell.Tab.1.left/0.23.1440.813@0.23.1440.813" timestamp="1576771043588" />
+    <state width="1398" height="351" key="GridCell.Tab.1.left/0.23.1440.815@0.23.1440.815" timestamp="1576699375604" />
+    <state width="1398" height="282" key="GridCell.Tab.1.right" timestamp="1576771043588">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="307" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576688380646" />
+    <state width="1398" height="351" key="GridCell.Tab.1.right/0.23.1440.805@0.23.1440.805" timestamp="1576748245408" />
+    <state width="1398" height="282" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1576771043588" />
+    <state width="1398" height="351" key="GridCell.Tab.1.right/0.23.1440.815@0.23.1440.815" timestamp="1576699375605" />
+    <state x="258" y="124" key="Maven.ArtifactSearchDialog" timestamp="1576700699256">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="258" y="112" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1576476579680" />
+    <state x="258" y="124" key="Maven.ArtifactSearchDialog/0.23.1440.815@0.23.1440.815" timestamp="1576700699256" />
+    <state x="349" y="151" key="NewModule_or_Project.wizard" timestamp="1576676553635">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="349" y="151" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1576676553635" />
+    <state x="229" y="23" width="1024" height="821" key="SettingsEditor" timestamp="1576492806026">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576423189918" />
+    <state x="229" y="23" width="1024" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1576492806026" />
+    <state x="399" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1576749052645">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="399" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1576749052645" />
+    <state x="399" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.815@0.23.1440.815" timestamp="1576692142813" />
+    <state x="399" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.817@0.23.1440.817" timestamp="1576691932235" />
+    <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1576492771503" />
+    <state x="386" y="186" width="667" height="486" key="find.popup" timestamp="1576766037204">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="386" y="186" width="667" height="486" key="find.popup/0.23.1440.813@0.23.1440.813" timestamp="1576766037204" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576685715588">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1576685715588" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatServletWebServerFactory.class</url>
+          <line>109</line>
+          <properties class="org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory" method="getWebServer">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.class</url>
+          <line>45</line>
+          <properties class="org.springframework.boot.web.embedded.tomcat.TomcatWebServer" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatServletWebServerFactory.class</url>
+          <line>240</line>
+          <properties class="org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory" method="customizeConnector">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ServerHandshaker.class</url>
+          <line>1087</line>
+          <properties class="sun.security.ssl.ServerHandshaker" method="clientCertificate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ServerHandshaker.class</url>
+          <line>80</line>
+          <properties class="sun.security.ssl.ServerHandshaker" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ServerHandshaker.class</url>
+          <line>85</line>
+          <properties class="sun.security.ssl.ServerHandshaker" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ServerHandshaker.class</url>
+          <line>90</line>
+          <properties class="sun.security.ssl.ServerHandshaker" method="setClientAuth">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ServerHandshaker.class</url>
+          <line>94</line>
+          <properties class="sun.security.ssl.ServerHandshaker" method="processMessage">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class</url>
+          <line>21</line>
+          <properties class="javax.net.ssl.SSLContext" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/jsse/JSSESSLContext.java</url>
+          <line>43</line>
+          <properties class="org.apache.tomcat.util.net.jsse.JSSESSLContext" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/openssl/OpenSSLContext.java</url>
+          <line>106</line>
+          <properties class="org.apache.tomcat.util.net.openssl.OpenSSLContext" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/SSLHostConfig.java</url>
+          <line>121</line>
+          <properties class="org.apache.tomcat.util.net.SSLHostConfig" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.12/httpcore-4.4.12-sources.jar!/org/apache/http/ssl/SSLContextBuilder.java</url>
+          <line>241</line>
+          <properties class="org.apache.http.ssl.SSLContextBuilder" method="loadTrustMaterial">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.java</url>
+          <line>83</line>
+          <properties class="org.springframework.boot.web.embedded.tomcat.TomcatWebServer" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyFilter.java</url>
+          <line>14</line>
+          <properties class="components.MyFilter">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
+          <line>93</line>
+          <properties class="HttpsClientAutheticationTest" method="getDefaultSSLContext">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/NioEndpoint.java</url>
+          <line>1543</line>
+          <properties class="org.apache.tomcat.util.net.NioEndpoint.SocketProcessor" method="doRun">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/SSLEngineImpl.class</url>
+          <line>77</line>
+          <properties class="sun.security.ssl.SSLEngineImpl" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/SSLEngineImpl.class</url>
+          <line>84</line>
+          <properties class="sun.security.ssl.SSLEngineImpl" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/SSLEngineImpl.class</url>
+          <line>92</line>
+          <properties class="sun.security.ssl.SSLEngineImpl" method="init">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ClientHandshaker.class</url>
+          <line>477</line>
+          <properties class="sun.security.ssl.ClientHandshaker" method="serverHelloDone">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class</url>
+          <line>48</line>
+          <properties class="javax.net.ssl.SSLContext" method="getInstance">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class</url>
+          <line>53</line>
+          <properties class="javax.net.ssl.SSLContext" method="getInstance">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class</url>
+          <line>58</line>
+          <properties class="javax.net.ssl.SSLContext" method="getInstance">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/javax/net/ssl/SSLContext.class</url>
+          <line>71</line>
+          <properties class="javax.net.ssl.SSLContext" method="init">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.5.8-p5/ignite-core-2.5.8-p5.jar!/org/apache/ignite/ssl/SslContextFactory.class</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatServletWebServerFactory.class</url>
+          <line>65</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ServerHandshaker.class</url>
+          <line>62</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ServerHandshaker.class</url>
+          <line>109</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ClientHandshaker.class</url>
+          <line>992</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/AbstractJsseEndpoint.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyTomcatWebServerCustomizer.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/conn/ssl/SSLConnectionSocketFactory.class</url>
+          <line>44</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatServletWebServerFactory.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatServletWebServerFactory.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/catalina/startup/Tomcat.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyFilter.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar!/javax/net/ssl/X509TrustManager.class</url>
+          <line>10</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/SSLUtilBase.java</url>
+          <line>400</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.java</url>
+          <line>191</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/NioEndpoint.java</url>
+          <line>1590</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyTomcatWebServerCustomizer.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/SSLEngineImpl.class</url>
+          <line>29</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/NioEndpoint.java</url>
+          <line>1567</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/SSLUtilBase.java</url>
+          <line>248</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/NioEndpoint.java</url>
+          <line>1588</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/NioEndpoint.java</url>
+          <line>1584</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/NioEndpoint.java</url>
+          <line>1596</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/NioEndpoint.java</url>
+          <line>1578</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatServletWebServerFactory.class</url>
+          <line>66</line>
+          <properties field="DEFAULT_CHARSET" class="org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/conn/ssl/SSLConnectionSocketFactory.class</url>
+          <line>46</line>
+          <properties field="SSL" class="org.apache.http.conn.ssl.SSLConnectionSocketFactory" />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/conn/ssl/SSLConnectionSocketFactory.class</url>
+          <line>45</line>
+          <properties field="TLS" class="org.apache.http.conn.ssl.SSLConnectionSocketFactory" />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

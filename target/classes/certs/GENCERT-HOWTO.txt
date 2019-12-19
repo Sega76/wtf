@@ -1,0 +1,7 @@
+Install OpenSSL. Portable Windows version for poormen with no admin rights:
+https://indy.fulgan.com/SSL
+
+Run create-CAs.bat first, use "one" and "two" as CNs when prompted, other fields may have default values. Then run mkcerts.bat.
+
+More details on key CA creation, key generation, CSR generation, certificate signing, etc: 
+https://sites.google.com/site/ddmwsst/create-your-own-certificate-and-ca
