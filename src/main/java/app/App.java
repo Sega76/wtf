@@ -5,6 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
+import sun.security.ssl.Debug;
 
 @ComponentScan({"controller", "components"})
 @SpringBootApplication
@@ -23,6 +24,7 @@ public class App {
     private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
 
     public static void main(String[] args) {
+        System.out.println(Debug.isOn("handshake"));
         SpringApplication.run(App.class, VALID_ARGS_WITH_SSL);
     }
 }

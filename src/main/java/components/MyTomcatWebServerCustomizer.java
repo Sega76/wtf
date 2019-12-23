@@ -1,11 +1,6 @@
 package components;
 
-import java.util.Set;
 import org.apache.catalina.connector.Connector;
-import org.apache.catalina.core.StandardHost;
-import org.apache.catalina.startup.Tomcat;
-import org.apache.coyote.http11.Http11NioProtocol;
-import org.apache.http.conn.ssl.NoopHostnameVerifier;
 import org.apache.tomcat.util.descriptor.web.SecurityCollection;
 import org.apache.tomcat.util.descriptor.web.SecurityConstraint;
 import org.apache.tomcat.util.net.AbstractEndpoint;
@@ -14,17 +9,13 @@ import org.apache.tomcat.util.net.NioChannel;
 import org.apache.tomcat.util.net.SSLHostConfig;
 import org.springframework.boot.web.embedded.tomcat.TomcatContextCustomizer;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
-import org.springframework.boot.web.embedded.tomcat.TomcatWebServer;
 import org.springframework.boot.web.server.WebServerFactoryCustomizer;
-import org.springframework.boot.web.servlet.server.ServletWebServerFactory;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MyTomcatWebServerCustomizer
-    implements WebServerFactoryCustomizer<TomcatServletWebServerFactory> {
+public class MyTomcatWebServerCustomizer implements WebServerFactoryCustomizer<TomcatServletWebServerFactory> {
 
-    private static String STORE_PASS = "123456";
+    public static String STORE_PASS = "123456";
 
     @Override
     public void customize(TomcatServletWebServerFactory factory) {

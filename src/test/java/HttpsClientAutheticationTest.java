@@ -26,6 +26,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.util.ResourceUtils;
+import sun.security.ssl.Debug;
 
 import static app.App.VALID_ARGS_WITH_SSL;
 
@@ -38,9 +39,12 @@ public class HttpsClientAutheticationTest {
     /**
      * All password.
      */
-    private String STORE_PASS = "123456";
+    private char[] pass = "123456".toCharArray();
 
-    private String CERT_PATH="/Users/s.ryzhov/work/ForTests/src/main/resources/certs/validUser.jks";
+//    private String certPath ="/Users/s.ryzhov/work/ForTests/src/main/resources/certs/validUser.jks";
+    private String certPath ="/Users/s.ryzhov/work/ForTests/src/main/resources/certs/other.jks";
+
+//    private String tustPath="/Users/s.ryzhov/work/ForTests/src/main/resources/certs/trust-one.jks";
     /**
      * Url for authentication.
      */
@@ -96,24 +100,14 @@ public class HttpsClientAutheticationTest {
         KeyStore keyStore = KeyStore.getInstance("jks");
         keyStore.load(null);
 
-        return SSLContextBuilder
+        SSLContext sslContext = SSLContextBuilder
             .create()
-            .loadKeyMaterial(ResourceUtils.getFile(
-//                "/Users/s.ryzhov/work/ForTests/src/main/resources/certs/other.jks"),
-                CERT_PATH),
-                STORE_PASS.toCharArray(), STORE_PASS.toCharArray())
-//            .loadTrustMaterial(ResourceUtils.getFile(
-//                "/Users/s.ryzhov/work/ForTests/src/main/resources/certs/trust-one.jks"),
-//                STORE_PASS.toCharArray())
-            .loadTrustMaterial((certificate, authType) -> {
-////                Arrays.asList(certificate).forEach(c -> System.err.println(c.getSubjectDN().getName()));
-////                if (!Arrays.stream(certificate)
-//////                    .anyMatch(c -> c.getSubjectDN().getName().contains("validUser")))
-////                    .anyMatch(c -> c.getSubjectDN().getName().contains("userAdmin")))
-////                    return false;
-                return true;
-            })
+            .loadKeyMaterial(ResourceUtils.getFile(certPath), pass, pass)
+//            .loadTrustMaterial(ResourceUtils.getFile(tustPath), pass)
+            .loadTrustMaterial((c,v) -> true)
             .build();
+
+        return sslContext;
     }
 
     @After
@@ -124,7 +118,9 @@ public class HttpsClientAutheticationTest {
 
     @Before
     public void before() throws Exception {
-        startApplication(VALID_ARGS_WITH_SSL);
+        System.out.println(Debug.isOn("handshake"));
+//        System.out.println(Debug.isOn());
+//        startApplication(VALID_ARGS_WITH_SSL);
     }
 
     protected void startApplication(String[] args) {

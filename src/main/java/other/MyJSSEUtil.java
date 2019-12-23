@@ -1,11 +1,14 @@
 package other;
 
+import java.io.IOException;
+import java.security.KeyManagementException;
+import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
+import java.security.UnrecoverableKeyException;
+import java.security.cert.CertificateException;
 import java.util.List;
-import javax.net.ssl.SSLSessionContext;
 import org.apache.tomcat.util.net.SSLContext;
 import org.apache.tomcat.util.net.SSLHostConfigCertificate;
-//import org.apache.tomcat.util.net.jsse.JSSESSLContext;
 import org.apache.tomcat.util.net.jsse.JSSEUtil;
 
 public class MyJSSEUtil extends JSSEUtil {
@@ -31,11 +34,17 @@ public class MyJSSEUtil extends JSSEUtil {
 //        return sslContext;
 //    }
 //
-//    @Override
-//    public SSLContext createSSLContextInternal(List<String> negotiableProtocols)
-//        throws NoSuchAlgorithmException {
-//        return new MyJSSESSLContext(sslHostConfig.getSslProtocol());
-//    }
+    @Override
+    public SSLContext createSSLContextInternal(List<String> negotiableProtocols)
+        throws NoSuchAlgorithmException {
+        try {
+            return new MyJSSESSLContext(sslHostConfig.getSslProtocol());
+        }
+        catch (UnrecoverableKeyException | IOException | KeyStoreException | KeyManagementException | CertificateException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
 
 }

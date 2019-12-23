@@ -34,6 +34,7 @@ import org.apache.tomcat.util.modeler.Registry;
 import org.apache.tomcat.util.net.AbstractEndpoint;
 import org.apache.tomcat.util.net.AbstractJsseEndpoint;
 import org.apache.tomcat.util.net.NioChannel;
+import org.apache.tomcat.util.net.SSLHostConfig;
 import org.apache.tomcat.util.net.SecureNioChannel;
 import org.apache.tomcat.util.net.SocketEvent;
 import org.apache.tomcat.util.net.SocketWrapperBase;
@@ -95,8 +96,8 @@ public class MyHttp11NioProtocol extends Http11NioProtocol {
 
             System.err.println(status);
 
-            StackTraceElement[] trace = Thread.currentThread().getStackTrace();
-            Arrays.asList(trace).forEach(System.err::println);
+//            StackTraceElement[] trace = Thread.currentThread().getStackTrace();
+//            Arrays.asList(trace).forEach(System.err::println);
 
 
             if (getLog().isDebugEnabled()) {

@@ -24,7 +24,24 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9637e26c-de01-4202-b735-b4384b40e4ad" name="Default Changelist" comment="" />
+    <list default="true" id="9637e26c-de01-4202-b735-b4384b40e4ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/MyTomcatWebServerCustomizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/components/MyTomcatWebServerCustomizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/components/MywebApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/other/MyJSSESSLContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/MyJSSESSLContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/other/MyJSSEUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/other/MyJSSEUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ForTests.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/components/MyHttp11NioProtocol$MyHandler$RecycledProcessors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/components/MyHttp11NioProtocol$MyHandler$RecycledProcessors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/components/MyHttp11NioProtocol$MyHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/components/MyHttp11NioProtocol$MyHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/components/MyHttp11NioProtocol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/components/MyHttp11NioProtocol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/components/MyTomcatWebServerCustomizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/components/MyTomcatWebServerCustomizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/other/MyJSSEUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/other/MyJSSEUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HttpsClientAutheticationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HttpsClientAutheticationTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +61,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -62,6 +82,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1UvjhdxQGhiFcI7Ga3npSgGJK6a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -71,13 +92,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.kotlin.data.view" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -89,10 +111,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HttpsClientAutheticationTest.testSameCert">
+  <component name="RunManager" selected="JUnit.HttpsClientAutheticationTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.App" />
       <module name="ForTests" />
+      <option name="VM_PARAMETERS" value="-ea -Xdebug -Djavax.net.debug=all" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
@@ -120,7 +143,10 @@
       <module name="ForTests" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HttpsClientAutheticationTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Xdebug" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,9 +177,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HttpsClientAutheticationTest.testSameCert" />
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.HttpsClientAutheticationTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.HttpsClientAutheticationTest.testSameCert" />
         <item itemvalue="Application.CertAuthServer" />
       </list>
     </recent_temporary>
@@ -188,6 +214,8 @@
       <workItem from="1576691922505" duration="136000" />
       <workItem from="1576692133623" duration="10137000" />
       <workItem from="1576748876780" duration="20316000" />
+      <workItem from="1576844701816" duration="8789000" />
+      <workItem from="1577038138617" duration="3843000" />
     </task>
     <servers />
   </component>
@@ -199,87 +227,96 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1576363666010" />
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576477232022">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577082822789">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1576477232022" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577082822789" />
     <state x="439" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576484912036">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="439" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1576484912036" />
-    <state x="533" y="173" width="689" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1576767152993">
+    <state x="533" y="173" width="689" height="554" key="#com.intellij.ide.util.MemberChooser" timestamp="1576841167063">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
     <state x="533" y="166" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1576685754583" />
-    <state x="533" y="173" width="689" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.813@0.23.1440.813" timestamp="1576767152993" />
+    <state x="533" y="173" width="689" height="554" key="#com.intellij.ide.util.MemberChooser/0.23.1440.813@0.23.1440.813" timestamp="1576841167063" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.23.1440.815@0.23.1440.815" timestamp="1576700822381" />
-    <state x="408" y="173" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576691090759">
-      <screen x="0" y="23" width="1440" height="815" />
-    </state>
-    <state x="408" y="173" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.815@0.23.1440.815" timestamp="1576691090759" />
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1576771697274">
+    <state x="408" y="173" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576844365980">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1398" height="397" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576688839108" />
+    <state x="408" y="173" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.813@0.23.1440.813" timestamp="1576844365980" />
+    <state x="408" y="173" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.815@0.23.1440.815" timestamp="1576691090759" />
+    <state width="427" height="466" key="DebuggerActiveHint" timestamp="1576853179281">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="427" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1576853179281" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1576852480718">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1576852480718" />
+    <state width="1398" height="363" key="GridCell.Tab.0.bottom" timestamp="1577082891071">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="363" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577082891071" />
     <state width="1398" height="351" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1576748245408" />
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1576771697274" />
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1576850109614" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1576702583610" />
     <state width="1398" height="157" key="GridCell.Tab.0.bottom/0.23.1440.817@0.23.1440.817" timestamp="1576691826407" />
     <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1576366950073" />
-    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1576771697272">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="363" key="GridCell.Tab.0.center" timestamp="1577082891070">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="397" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576688839106" />
+    <state width="1398" height="363" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577082891070" />
     <state width="1398" height="351" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1576748245407" />
-    <state width="1398" height="279" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1576771697272" />
+    <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1576850109613" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1576702583609" />
     <state width="1398" height="157" key="GridCell.Tab.0.center/0.23.1440.817@0.23.1440.817" timestamp="1576691826406" />
     <state width="1398" height="237" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1576366950072" />
-    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1576771697271">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="363" key="GridCell.Tab.0.left" timestamp="1577082891069">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="397" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576688839106" />
+    <state width="1398" height="363" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577082891069" />
     <state width="1398" height="351" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1576748245406" />
-    <state width="1398" height="279" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1576771697271" />
+    <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1576850109612" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1576702583608" />
     <state width="1398" height="157" key="GridCell.Tab.0.left/0.23.1440.817@0.23.1440.817" timestamp="1576691826406" />
     <state width="1398" height="237" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1576366950072" />
-    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1576771697273">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="363" key="GridCell.Tab.0.right" timestamp="1577082891071">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="397" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576688839107" />
+    <state width="1398" height="363" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577082891071" />
     <state width="1398" height="351" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1576748245407" />
-    <state width="1398" height="279" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1576771697273" />
+    <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1576850109613" />
     <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1576702583609" />
     <state width="1398" height="157" key="GridCell.Tab.0.right/0.23.1440.817@0.23.1440.817" timestamp="1576691826407" />
     <state width="1398" height="237" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1576366950073" />
-    <state width="1398" height="282" key="GridCell.Tab.1.bottom" timestamp="1576771043589">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom" timestamp="1577039597846">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="307" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576688380647" />
+    <state width="1398" height="362" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577039597846" />
     <state width="1398" height="351" key="GridCell.Tab.1.bottom/0.23.1440.805@0.23.1440.805" timestamp="1576748245409" />
-    <state width="1398" height="282" key="GridCell.Tab.1.bottom/0.23.1440.813@0.23.1440.813" timestamp="1576771043589" />
+    <state width="1398" height="282" key="GridCell.Tab.1.bottom/0.23.1440.813@0.23.1440.813" timestamp="1576846748550" />
     <state width="1398" height="351" key="GridCell.Tab.1.bottom/0.23.1440.815@0.23.1440.815" timestamp="1576699375605" />
-    <state width="1398" height="282" key="GridCell.Tab.1.center" timestamp="1576771043588">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="362" key="GridCell.Tab.1.center" timestamp="1577039597845">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="307" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576688380645" />
+    <state width="1398" height="362" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1577039597845" />
     <state width="1398" height="351" key="GridCell.Tab.1.center/0.23.1440.805@0.23.1440.805" timestamp="1576748245408" />
-    <state width="1398" height="282" key="GridCell.Tab.1.center/0.23.1440.813@0.23.1440.813" timestamp="1576771043588" />
+    <state width="1398" height="282" key="GridCell.Tab.1.center/0.23.1440.813@0.23.1440.813" timestamp="1576846748549" />
     <state width="1398" height="351" key="GridCell.Tab.1.center/0.23.1440.815@0.23.1440.815" timestamp="1576699375605" />
-    <state width="1398" height="282" key="GridCell.Tab.1.left" timestamp="1576771043588">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="362" key="GridCell.Tab.1.left" timestamp="1577039597844">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="307" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576688380643" />
+    <state width="1398" height="362" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1577039597844" />
     <state width="1398" height="351" key="GridCell.Tab.1.left/0.23.1440.805@0.23.1440.805" timestamp="1576748245408" />
-    <state width="1398" height="282" key="GridCell.Tab.1.left/0.23.1440.813@0.23.1440.813" timestamp="1576771043588" />
+    <state width="1398" height="282" key="GridCell.Tab.1.left/0.23.1440.813@0.23.1440.813" timestamp="1576846748548" />
     <state width="1398" height="351" key="GridCell.Tab.1.left/0.23.1440.815@0.23.1440.815" timestamp="1576699375604" />
-    <state width="1398" height="282" key="GridCell.Tab.1.right" timestamp="1576771043588">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1398" height="362" key="GridCell.Tab.1.right" timestamp="1577039597846">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="307" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576688380646" />
+    <state width="1398" height="362" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577039597846" />
     <state width="1398" height="351" key="GridCell.Tab.1.right/0.23.1440.805@0.23.1440.805" timestamp="1576748245408" />
-    <state width="1398" height="282" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1576771043588" />
+    <state width="1398" height="282" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1576846748549" />
     <state width="1398" height="351" key="GridCell.Tab.1.right/0.23.1440.815@0.23.1440.815" timestamp="1576699375605" />
     <state x="258" y="124" key="Maven.ArtifactSearchDialog" timestamp="1576700699256">
       <screen x="0" y="23" width="1440" height="815" />
@@ -290,22 +327,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="349" y="151" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1576676553635" />
-    <state x="229" y="23" width="1024" height="821" key="SettingsEditor" timestamp="1576492806026">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="229" y="63" width="1024" height="821" key="SettingsEditor" timestamp="1577040080082">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576423189918" />
+    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577040080082" />
     <state x="229" y="23" width="1024" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1576492806026" />
-    <state x="399" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1576749052645">
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1576851550023">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1576851550023" />
+    <state x="100" y="123" width="1240" height="612" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576842444894">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="399" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1576749052645" />
+    <state x="100" y="123" width="1240" height="612" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.813@0.23.1440.813" timestamp="1576842444894" />
+    <state x="399" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1576844787606">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="399" y="262" key="com.intellij.ide.util.TipDialog/0.23.1440.813@0.23.1440.813" timestamp="1576844787606" />
     <state x="399" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.815@0.23.1440.815" timestamp="1576692142813" />
     <state x="399" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.817@0.23.1440.817" timestamp="1576691932235" />
     <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1576492771503" />
-    <state x="386" y="186" width="667" height="486" key="find.popup" timestamp="1576766037204">
+    <state x="386" y="186" width="667" height="486" key="find.popup" timestamp="1576837914646">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state x="386" y="186" width="667" height="486" key="find.popup/0.23.1440.813@0.23.1440.813" timestamp="1576766037204" />
+    <state x="386" y="186" width="667" height="486" key="find.popup/0.23.1440.813@0.23.1440.813" timestamp="1576837914646" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1576685715588">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -436,7 +481,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
-          <line>93</line>
+          <line>96</line>
           <properties class="HttpsClientAutheticationTest" method="getDefaultSSLContext">
             <option name="EMULATED" value="true" />
           </properties>
@@ -514,6 +559,38 @@
           </properties>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/jsse/JSSEUtil.java</url>
+          <line>54</line>
+          <properties class="org.apache.tomcat.util.net.jsse.JSSEUtil" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/jsse/JSSEUtil.java</url>
+          <line>59</line>
+          <properties class="org.apache.tomcat.util.net.jsse.JSSEUtil" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/MyController.java</url>
+          <line>12</line>
+          <properties class="controller.MyController" method="test">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE-sources.jar!/org/springframework/boot/web/embedded/tomcat/TomcatWebServer.java</url>
+          <line>130</line>
+          <properties class="org.springframework.boot.web.embedded.tomcat.TomcatWebServer" method="findContext">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/apache/ignite/ignite-core/2.5.8-p5/ignite-core-2.5.8-p5.jar!/org/apache/ignite/ssl/SslContextFactory.class</url>
           <line>28</line>
@@ -546,7 +623,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/components/MyTomcatWebServerCustomizer.java</url>
-          <line>102</line>
+          <line>93</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -596,22 +673,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
-          <line>60</line>
+          <line>63</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HttpsClientAutheticationTest.java</url>
-          <line>98</line>
+          <line>106</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -636,7 +703,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/components/MyTomcatWebServerCustomizer.java</url>
-          <line>94</line>
+          <line>85</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -646,17 +713,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
-          <line>113</line>
+          <line>114</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
-          <line>114</line>
+          <line>115</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
-          <line>115</line>
+          <line>116</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -671,7 +738,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
-          <line>101</line>
+          <line>102</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -696,8 +763,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/components/MyHttp11NioProtocol.java</url>
-          <line>95</line>
+          <line>96</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/MyController.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/components/WebServerFactory.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/catalina/util/LifecycleBase.java</url>
+          <line>138</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.29/tomcat-embed-core-9.0.29-sources.jar!/org/apache/tomcat/util/net/jsse/JSSESSLContext.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar!/sun/security/ssl/ServerHandshaker.class</url>
+          <line>1101</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.2.2.RELEASE/spring-boot-2.2.2.RELEASE.jar!/org/springframework/boot/web/embedded/tomcat/TomcatServletWebServerFactory.class</url>
